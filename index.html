@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Can-Do Energy Drink</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>당신에게 드리는 캔두 한 캔!</h1>
+        
+        <!-- 파티클 애니메이션을 위한 Canvas -->
+        <canvas id="particleCanvas"></canvas>
+        
+        <!-- 클릭 시 나타나는 문구 -->
+        <div id="quote" class="quote"></div>
+
+        <!-- 에너지 드링크 이미지 -->
+        <div class="can-container">
+            <img src="unnamed.png" alt="Can-Do Energy Drink" id="energy-can" onclick="openCan()">
+        </div>
+    </div>
+    <audio id="canSound" src="can-opening-fizzy-drink-soda-pop-high-quality-96655.mp3"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
